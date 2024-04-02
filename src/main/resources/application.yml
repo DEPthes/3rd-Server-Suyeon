@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: Server-Study
+  datasource:
+
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/userServ?serverTimezone=UTC&useSSL=false
+    username: root
+    password: Suyeon0721!
