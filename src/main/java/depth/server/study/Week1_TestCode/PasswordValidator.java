@@ -1,4 +1,4 @@
-package depth.server.study;
+package depth.server.study.Week1_TestCode;
 
 public class PasswordValidator {
     public static final String WRONG_PW_LENGTH_EXCEPTION_MESSAGE = "비밀번호는 9자 이상 15자 이하여야 합니다.";

@@ -1,4 +1,4 @@
-package depth.server.study;
+package depth.server.study.Week1_TestCode;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -21,10 +21,6 @@ public class PasswordValidatorTest {
         assertThatCode(()-> PasswordValidator.validate("123456789"))
                 .doesNotThrowAnyException();
         // assertThatCode : 실패하지 않는 코드를 검증하는 것
-        /**
-         * assertThatThrownBy -> 무조건 에러가 발생해야 한다. 에러가 발생하지 않으면 실패
-         * assertThatCode -> 에러가 발생하면 안된다. 에러가 발생하면 실패
-         */
     }
 
     @DisplayName("비밀번호가 9자 미만인 경우 예외 발생")
