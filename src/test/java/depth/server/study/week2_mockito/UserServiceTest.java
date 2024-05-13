@@ -1,5 +1,6 @@
-package depth.server.study.Week2_Mockito;
+package depth.server.study.week2_mockito;
 
+import depth.server.study.week3_security.UserRepository;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

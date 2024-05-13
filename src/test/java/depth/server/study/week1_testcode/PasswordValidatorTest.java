@@ -1,4 +1,4 @@
-package depth.server.study.Week1_TestCode;
+package depth.server.study.week1_testcode;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
