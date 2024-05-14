@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: Server-Study
+
+  jpa:
+    database-platform:
+    hibernate:
+      ddl-auto: create
+
+    open-in-view: false
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/userServ?serverTimezone=UTC&useSSL=false
+    username: root
+    password: Suyeon0721!
